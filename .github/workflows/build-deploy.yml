@@ -17,7 +17,7 @@ jobs:
 
       # Uploading artifact named `github-pages` from build folder
       - name: Uploading build files
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-pages-artifact@v2
         with:
           name: github-pages
           path: dist/
